@@ -1,0 +1,11 @@
+# For local use (Colab script installs these automatically)
+torch>=2.4
+accelerate>=0.33
+huggingface_hub>=0.24
+sentencepiece>=0.2
+tqdm>=4.66
+gradio>=4.42
+# bleeding-edge transformers & triton kernels are installed from source in the script:
+# transformers @ git+https://github.com/huggingface/transformers
+# triton==3.4
+# triton-kernels @ git+https://github.com/triton-lang/triton.git@main#subdirectory=python/triton_kernels
